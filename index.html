@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Keya Shah's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+     body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom, #f8faff, #ffeaff);
+      color: #333;
+    }
+    .navbar {
+      background-color: #fff0f5;
+    }
+    .navbar-brand {
+      font-family: 'Pacifico', cursive;
+      color: #ff69b4 !important;
+    }
+    .section-title {
+      margin: 60px 0 30px;
+      font-weight: 600;
+    }
+    .project-card, .cert-card {
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    .project-card:hover, .cert-card:hover {
+      transform: scale(1.02);
+    }
+    .cert-img {
+      max-width: 100%;
+      height: auto;
+    }
+    .hero {
+      background: linear-gradient(135deg, #fbeeff, #e0f7ff);
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #6c757d;
+    }
+    .icon-btn a {
+      font-size: 1.5rem;
+      margin-right: 15px;
+      color: black;
+    }
+    .skills img {
+      height: 40px;
+      margin: 10px;
+    }
+  </style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a style ="color:blue"class="navbar-brand fw-bold" href="#">&lt; Portfolio /&gt;</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero text-center py-5">
+  <div class="container">
+    <h1>Hi all, I'm <span style="color:#ff69b4">Keya Shah</span> 👋</h1>
+    <p class="lead">
+      A passionate Full Stack Developer 🚀 currently in my final year of M.Sc. IT.<br>
+      Skilled in building dynamic and user-friendly web applications using<br>
+      HTML, CSS, JavaScript, Python, NodeJS, and more!
+    </p>
+    <div class="icon-btn mt-3">
+      <a href="https://github.com/keya-ashish-shah" target="_blank"><img src="https://img.icons8.com/ios-filled/30/github.png"/></a>
+      <a href="https://www.linkedin.com/in/keya-shah-303587260" target="_blank"><img src="https://img.icons8.com/ios-filled/30/linkedin.png"/></a>
+      <a href="mailto:keyaashishshah@gmail.com" target="_blank"><img src="https://img.icons8.com/ios-filled/30/gmail.png"/></a>
+    </div>
+  </div>
+</section>
+
+
+<section class="container py-5">
+  <div class="row align-items-start">
+    
+    <!-- Skills Column (Left) -->
+    <div class="col-lg-6 mb-4 text-start">
+      <h2 class="section-title">💡 What I Do</h2>
+      <p class="lead text-muted">Enthusiastic Developer who fuels passion and codes the reality!</p>
+      <div class="skills d-flex flex-wrap">
+        <img src="https://img.icons8.com/color/48/html-5--v1.png" alt="HTML">
+        <img src="https://img.icons8.com/color/48/css3.png" alt="CSS">
+        <img src="https://img.icons8.com/color/48/javascript--v1.png" alt="JavaScript">
+        <img src="https://img.icons8.com/color/48/bootstrap.png" alt="Bootstrap">
+        <img src="https://img.icons8.com/color/48/tailwind_css.png" alt="Tailwind CSS">
+        <img src="https://img.icons8.com/officel/48/php-logo.png" alt="PHP">
+        <img src="https://img.icons8.com/color/48/python--v1.png" alt="Python">
+        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-django-logo-color-tal-revivo.png" alt="Django">
+        <img src="https://img.icons8.com/color/48/mysql-logo.png" alt="MySQL">
+        <img src="https://img.icons8.com/color/48/mongodb.png" alt="MongoDB">
+        <img src="https://img.icons8.com/ios/48/express-js.png" alt="Express.js">
+        <img src="https://img.icons8.com/color/48/react-native.png" alt="React.js">
+        <img src="https://img.icons8.com/color/48/nodejs.png" alt="Node.js">
+      </div>
+    </div>
+
+    
+    <!-- Education Column (Right Aligned) -->
+<div class="col-lg-6 mb-4 text-end">
+  <h2 class="section-title">🎓 Education</h2>
+  <div class="d-flex justify-content-end">
+    <div class="d-flex align-items-start" style="max-width: 100%;">
+      <!-- College Logo (left inside box) -->
+      <img src="https://image-static.collegedunia.com/public/college_data/images/logos/1478173942logo%20image.jpg"
+           alt="College Logo"
+           width="60"
+           height="60"
+           class="me-3 rounded" />
+      
+      <!-- Text (right side) -->
+      <div class="text-end">
+        <h5 class="mb-1">K. S. School of Business Management & IT</h5>
+        <p class="text-muted mb-0">Integrated M.Sc.(CA & IT)<br><small>June 2021 - May 2026</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+
+
+<!-- Projects -->
+<section id="projects" class="container mt-5">
+  <h2 class="section-title">📁 Projects</h2>
+  <div class="row g-4">
+
+    <!-- Project Card -->
+    <div class="col-md-4 d-flex">
+      <div class="p-3 border rounded project-card text-center h-100 d-flex flex-column justify-content-between">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM8zxrL6U-qguWcGb1viDeYzXOf16DjgMUqg&s" alt="wedding-planner" width="60" class="mx-auto d-block mb-2"/>
+        <h5 class="mt-2">Lavish Weddingz</h5>
+        <p>Connecting couples with trusted wedding vendors effortlessly. Includes vendor booking, location-based search filters, price/date filtering, vendor and user profile management, and a powerful admin panel for seamless wedding planning.</p>
+        <button onclick="window.location.href='https://github.com/keya-ashish-shah/Lavish_Weddings'" class="btn btn-outline-primary btn-sm mt-auto">View Project</button>
+      </div>
+    </div>
+
+    <div class="col-md-4 d-flex">
+      <div class="p-3 border rounded project-card text-center h-100 d-flex flex-column justify-content-between">
+        <img src="https://img.icons8.com/color/96/facebook-new.png" alt="facebook-clone" width="60" class="mx-auto d-block mb-2"/>
+        <h5 class="mt-2">Social Media Clone</h5>
+        <p>A social media platform inspired by Facebook, offering features like user profiles, friend requests, news feed, real-time chat, photo/video sharing, likes, comments, and notifications for a complete social experience.</p>
+        <button onclick="window.location.href='https://github.com/keya-ashish-shah/Social-Media-Clone'" class="btn btn-outline-primary btn-sm mt-auto">View Project</button>
+      </div>
+    </div>
+
+    <div class="col-md-4 d-flex">
+      <div class="p-3 border rounded project-card text-center h-100 d-flex flex-column justify-content-between">
+        <img src="https://img.icons8.com/fluency/96/combo-chart.png" alt="market-analyzer" width="60" class="mx-auto d-block mb-2"/>
+        <h5 class="mt-2">Share Market Analyzer</h5>
+        <p>A smart share market analyzer that tracks stock trends, provides real-time data, technical analysis, and portfolio management tools to help users make informed investment decisions.</p>
+        <button onclick="window.location.href='https://github.com/keya-ashish-shah/Share-Market-Analyzer'" class="btn btn-outline-primary btn-sm mt-auto">View Project</button>
+      </div>
+    </div>
+
+    <div class="col-md-4 d-flex">
+      <div class="p-3 border rounded project-card text-center h-100 d-flex flex-column justify-content-between">
+        <img src="https://img.icons8.com/color/96/health-checkup.png" alt="disease-predictor" width="60" class="mx-auto d-block mb-2"/>
+        <h5 class="mt-2">Multi-Disease Prediction System</h5>
+        <p>Developed a fuzzy logic-based system to predict diseases such as Diabetes, Heart Disease, Thyroid, PCOD, and Anxiety. Includes symptom input processing, fuzzy inference, real-time risk classification, and severity scoring with Pandas and NumPy.</p>
+        <button onclick="window.location.href='https://github.com/keya-ashish-shah/Medical_Diagnosis_System'" class="btn btn-outline-primary btn-sm mt-auto">View Project</button>
+      </div>
+    </div>
+
+    <div class="col-md-4 d-flex">
+      <div class="p-3 border rounded project-card text-center h-100 d-flex flex-column justify-content-between">
+        <img src="https://img.icons8.com/color/96/youtube-play.png" alt="youtube-sentiment" width="60" class="mx-auto d-block mb-2"/>
+        <h5 class="mt-2">YouTube Comment Sentiment Analyzer</h5>
+        <p>Created a real-time sentiment analyzer app using Python and Streamlit to analyze user sentiments based on YouTube comments.</p>
+        <button onclick="window.location.href='https://github.com/keya-ashish-shah/YoutubeCommentSentimentAnalyzer'" class="btn btn-outline-primary btn-sm mt-auto">View Project</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Achievements -->
+<section id="achievements" class="container mt-5">
+  <h2 class="section-title text-center mb-4">🏆 Achievements & Certifications</h2>
+  <div class="row g-4 justify-content-center">
+
+    <!-- Certification Card -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="border rounded shadow-sm p-3 text-center h-100">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s" 
+             alt="Linux" 
+             class="img-fluid mx-auto d-block mb-3" 
+             style="max-height: 80px; object-fit: contain;" />
+        <a href="https://www.coursera.org/account/accomplishments/certificate/M7TWC4DEQ4GT" 
+           class="text-decoration-none fw-semibold" 
+           target="_blank">
+          Create a Website Using WordPress: Free Hosting & Sub-domain
+        </a>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="border rounded shadow-sm p-3 text-center h-100">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCLpnKx5WgsOa4w5Ofo17bmKPhEFbMk9cJig&s" 
+             alt="Linux" 
+             class="img-fluid mx-auto d-block mb-3" 
+             style="max-height: 80px; object-fit: contain;" />
+        <a href="https://www.udemy.com/certificate/UC-b661a635-e7f2-44e9-9d59-d0e02077d267/" 
+           class="text-decoration-none fw-semibold" 
+           target="_blank">
+          Full Stack Web Development with MERN Stack and Gen AI 2025
+        </a>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="border rounded shadow-sm p-3 text-center h-100">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIKQOZPpk7J8Zy72VMx4HTBowLyJtsRaQ3rw&s" 
+             alt="Linux" 
+             class="img-fluid mx-auto d-block mb-3" 
+             style="max-height: 80px; object-fit: contain;" />
+        <a href="https://www.udemy.com/certificate/UC-ac1730ce-a325-4231-9bce-91203b201773/" 
+           class="text-decoration-none fw-semibold" 
+           target="_blank">
+          The Complete Python Bootcamp
+        </a>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="border rounded shadow-sm p-3 text-center h-100">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIKQOZPpk7J8Zy72VMx4HTBowLyJtsRaQ3rw&s" 
+             alt="Linux" 
+             class="img-fluid mx-auto d-block mb-3" 
+             style="max-height: 80px; object-fit: contain;" />
+        <a href="https://rathank.com/tutor-certificate/?cert_hash=73c4fed7d66f7994" 
+           class="text-decoration-none fw-semibold" 
+           target="_blank">
+          Python Django Basics
+        </a>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="border rounded shadow-sm p-3 text-center h-100">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCLpnKx5WgsOa4w5Ofo17bmKPhEFbMk9cJig&s" 
+             alt="Linux" 
+             class="img-fluid mx-auto d-block mb-3" 
+             style="max-height: 80px; object-fit: contain;" />
+        <a href="https://www.udemy.com/certificate/UC-59ffbc5d-a2c5-43ea-adfd-3d4774b33c44/" 
+           class="text-decoration-none fw-semibold" 
+           target="_blank">
+          Full stack web development mastery course
+        </a>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="border rounded shadow-sm p-3 text-center h-100">
+        <img src="https://www.javacodegeeks.com/wp-content/uploads/2018/12/3-300x300.png" 
+             alt="Linux" 
+             class="img-fluid mx-auto d-block mb-3" 
+             style="max-height: 80px; object-fit: contain;" />
+        <a href="https://www.linkedin.com/learning/certificates/dd23dc3d539923893dbafd485aab96c26b809f54e5e439ad500fe44643809042" 
+           class="text-decoration-none fw-semibold" 
+           target="_blank">
+          NoSql Essential Introductory Course
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Resume Section -->
+<section id="resume" class="container mt-5 py-5 border-top text-center">
+  <h2 class="section-title">📄 Resume</h2>
+  <p class="lead text-muted">Click below to view or download my resume.</p>
+  
+  <a href="assets/Keya Shah.pdf" class="btn btn-primary mt-3" download>
+    <img src="https://img.icons8.com/ios-filled/24/download--v1.png" class="me-2" alt="Download Icon"/>
+    Download Resume
+  </a>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="container mt-5 py-5 border-top text-center">
+  <h2 class="section-title">📬 Contact Me</h2>
+  <p class="lead text-muted">Have a project in mind or just want to say hello?</p>
+  
+  <div class="mt-4">
+    <p><strong>Email:</strong> <a href="mailto:keyaashishshah@gmail.com">keyaashishshah@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+918141453484">+91 81414 53484</a></p>
+  </div>
+
+  <div class="mt-3">
+    <a href="https://github.com/keya-ashish-shah" target="_blank" class="me-3">
+      <img src="https://img.icons8.com/ios-filled/30/github.png" alt="GitHub"/>
+    </a>
+    <a href="https://www.linkedin.com/in/keya-shah-303587260" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/30/linkedin.png" alt="LinkedIn"/>
+    </a>
+  </div>
+
+  <p class="mt-3 text-muted"><em>"Always learning, always coding."</em></p>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
